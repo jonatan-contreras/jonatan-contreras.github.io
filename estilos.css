@@ -1,0 +1,82 @@
+.contenedor{
+    display: flex;
+    justify-content: space-around;
+}
+
+.item{
+    width: 50%;
+    height: 200px;
+    background-color: grey;
+
+}
+
+.grip-container{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 10px;
+
+}
+
+#photo{
+    width: 200px;
+    height: 100px;
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid red  ;
+}
+
+#seccion1{
+    width: 200px;
+    height: 100px;
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid red  ;
+}
+
+#seccion2{
+    width: 200px;
+    height: 100px;
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid red  ;
+}
+
+#seccion3{
+    width: 200px;
+    height: 100px;
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid red  ;
+}
+
+#seccion4{
+    width: 200px;
+    height: 100px;
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid red  ;
+}
+
+#seccion5{
+    width: 200px;
+    height: 100px;
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid red  ;
+}
+
+#seccion6{
+    width: 200px;
+    height: 100px;
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid red  ;
+}
+
+#enlaces{
+    width: 200px;
+    height: 100px;
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid red  ;
+}
