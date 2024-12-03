@@ -9,5 +9,52 @@
     <h1>Pagina de Contactenos</h1>
     <p>para contacto puede escribir al correo hola@gmailcom</p>
     <a href="index.html">Ir a Inicio</a>
+
+    <form action="/enviar_datos" method="get">
+
+        <label for="nombre">Nombre Completo</label>
+        <input type="text" id="nombre" name="nombre" required placeholder="Escribe tu nombre completo">
+        <br>
+
+        <label for="email">Correo Electronico</label>
+        <input type="email" id="correo" name="correo" required placeholder="Escriba tu correo Electronico">
+        <br>
+        
+        <label for="Contraseña">Contraseña</label>
+        <input type="password" id="Contraseña" name="Contraseña" required> 
+        <br>
+
+        <label>Género</label>
+        <input type="radio" name="genero" value="masculino"> Masculino
+        <input type="radio" name="genero" value="femenino"> Femenino
+        <br>
+
+        <label>Intereses</label>
+        <input type="checkbox" name="interes" value="deporte"> Deporte
+        <input type="checkbox" name="interes" value="arte"> Arte
+        <input type="checkbox" name="interes" value="musica"> Musica
+        <br>
+
+        <label for="pais">Pais</label>
+        <select id="pais" name="pais">
+        <option value="mexico">Mexico</option>
+        <option value="españa">España</option>
+        <option value="argentina">Argentina</option>
+        </select>
+        <br>
+
+        <label for="mensaje">Mensaje:</label>
+    <textarea id="mensaje" name="mensaje" rows="4" cols="50" placeholder="Escribe tu mensaje aquí..."></textarea>
+
+    <button type="submit">Enviar</button>
+    <button type="reset">Restablecer</button>
+
+
+
+
+
+
+
+    </form>
 </body>
 </html>

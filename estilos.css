@@ -6,7 +6,7 @@
 .item{
     width: 50%;
     height: 200px;
-    background-color: grey;
+    background-color: #f4f4f4;
 
 }
 
@@ -22,7 +22,7 @@
     height: 100px;
     margin: 20px;
     padding: 20px;
-    border: 1px solid red  ;
+    border: 2px solid red  ;
 }
 
 #seccion1{
@@ -79,4 +79,33 @@
     margin: 20px;
     padding: 20px;
     border: 1px solid red  ;
+}
+
+@media (max-width:600px) {
+    .contenedor {
+        flex-direction: column;
+    }
+}
+
+p{
+    color: rgb(0, 0, 0);
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+
+    
+}
+
+th, td {
+    padding: 10px;
+    border: 1px solid #ddd;
+    text-align: center;
+    color: #ddd;
+}
+
+th {
+    background-color: #f4f4f4;
+    color: black;
+    text-align: center;
 }
